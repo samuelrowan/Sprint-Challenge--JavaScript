@@ -33,7 +33,7 @@ CuboidMaker.prototype.area = function() {
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.
 */
-const newObject = new CuboidMaker({
+const cuboid = new CuboidMaker({
   this.length: 4,
   this.width: 5,
   this.height: 5,
