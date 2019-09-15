@@ -40,10 +40,13 @@ Edit this document to include your answers after each question. Make sure to lea
   Closure is all about scope and where each scope ends.
 
 4. Describe the four rules of the 'this' keyword.
-
+  Window binding: It contains all of JavaScript and everything that exists within the global scope.
+  Implicit binding: It is used to reference the object that is being used by that function or method.
+  New binding: Is used when creating new objects through prototypes or classes.
+  Explicit binding: can be used to override data in objects.
 
 5. Why do we need super() in an extended class?
-  
+  super() brings over parent attributes to the child as a prototype.
 
 ## Project Set up
 
