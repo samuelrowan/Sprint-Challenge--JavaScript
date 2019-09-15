@@ -23,7 +23,7 @@ function multiply(a, b){
   return a * b;
 }
 function greeting(a, b) {
-  `Hello ${a} ${b}, nice to meet you!`
+  return `Hello ${a} ${b}, nice to meet you!`
 }
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
  console.log(consume(2, 2, add)); // 4
